@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.box:nth-child(odd) {
+  height: 100px;
+  background-color: blue;
+  flex: 1;
+}
+
+.box:nth-child(1) {
+  background-color: green;
+  height: 100px;
+  align-self: flex-start;
+  flex: 5;
+}

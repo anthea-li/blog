@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  color: green;
+  font-size: 20px;
+}
+
+p { 
+  font-size: 2em;
+  font-weight: 100;
+}
+
+p:hover {
+  font-size: 10em;
+}
+
+a:hover {
+  color: red;
+}
+
+#box {
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-bo;
+}
